@@ -78,7 +78,7 @@ class App extends React.Component {
     if (country && city) {//the call is only done if the user inputs both values
 
       const api_call = await fetch(//forthe api call we use the base URL
-        `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${Api_Key}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${Api_Key}`
       );
 
       const data = await api_call.json();
