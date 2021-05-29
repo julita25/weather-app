@@ -1,0 +1,23 @@
+.weather-container {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin-top: 30;
+}
+
+.weather-container i {
+  color: white;
+  margin-bottom: 15px;
+  animation: iconanimation 3s infinite;
+}
+
+@keyframes iconanimation {
+  /*specifies code for animation*/
+  from {
+    transform: scale(0.5, 0.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  border: none;
+  margin-top: 35px;
+}
+
+.container {
+  position: relative;
+  width: 70% !important;
+  height: 70%;
+  background: #00203fff;
+  box-shadow: 5px 5px 10px 2px #fff;
+  padding: 50px;
+}
